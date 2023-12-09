@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">  
+<!--Index page was done by Shauna-->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Campus Garden</title>
+		<script type="text/javascript">
+		alert("Hello! This is our Web Design Project"); //alerts the user upon opening the webpage
+		alert(new Date());  //alerts the user of date and time upon opening the page, the date()) function is how the date and time is displayed, code found on https://www.w3schools.com/js/tryit.asp?filename=tryjs_date_current 
+		
+		function myFunction() { //this function links to the button that I have after my title
+		document.getElementById("demo").innerHTML = "Our Idea is for a Campus Garden";
+		}
+		</script>
+		
+		<!--linking to bootstrap so the navbar works-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		
+		
+		<!-- style sheet comes after bootsrap CSS -->
+		<link rel="stylesheet" href="styles.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+<!--code from bootstrap demo class-->
+		<div class="container-fluid">
+		<!-- nav here -->
+				<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		  <div class="container-fluid">
+			<a class="navbar-brand" href="#">WDD Project</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+			  <ul class="navbar-nav">
+				<li class="nav-item">
+				  <a class="nav-link active" aria-current="page" a href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" a href="form.html">Form</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" a href="index.html">Gallery</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" a href="aimlab.html">Minigame</a>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+		<!-- header -->
+
+			<center>
+			<h2>A CAMPUS GARDEN</h2>
+			<p>Project by Shauna Kirwan Kelly, Connor Reid, and Urian Karaha</p>
+			</center>
+			<button onclick="myFunction()">Click me</button> <!--links to the myFunction in my javascript, upon clicking it will show what our idea for our project is-->
+			<p id="demo"></p>
+			<div class="main">
+				<div class="para1">
+					<h3>OUR IDEA</h3> <!--the p id="rcorners", allows me in the css file to have a border around my paragraphs-->
+					<p id="rcorners">We wanted to share the idea of a campus garden. Within this garden it will have space for food to be grown. There will also be solar panels, which can help provide energy for the college in an eco friendly way.This also allows for the opprotunity to create a gardening society, bringing people together. We think that adding a campus garden has a variety of benefits for the college.</p>
+				</div>
+
+				<div class="para2">
+					<h3><span class="greenSpan">BENEFITS</span></h3> <!--the span colours specific text, I only want to colour the benefits, so I open the span tag before the "benefits" and close the tag after-->
+					<p id="rcorners1">Growing food can reduce carbon emissions, and can also allow students to buy freshly grown produce. The college also gains more money from students buying directly from them. Reducing carbon emissions in this area would be beneficial as the luas runs right by the college and many cars are driving by each day. The solar panels allow energy to be produced in a eco friendly way. It also allows for a garden society to be created.</</p>
+				</div>
+			
+				<div class="para3">
+					<h3>MENTAL HEALTH <span class="greenSpan">BENEFITS</span></h3>
+					<p id="rcorners2">If we do have a campus garden and create a gardening society here are some benefits. Gardening can be relaxing. Studies show that gardening can lessen stress, and anxiety. It also makes people take part in physical activity. People can get vitamin D and fresh air by participating in gardening activities. Gardening also gives a great sense of accomplishing something once everything has been grown.</</p>
+				</div>
+			
+				<div class="para4">
+					<h3>ENERGY <span class="greenSpan">BENEFITS</span></h3>
+					<p id="rcorners">Solar panels are a sustainable way to create renewable energy. It can help reduce fossil fuels in the area. Solar panels also reduce energy costs, which woud be great for the college as it has to power many classrooms. Solar energy has an important role in reducing carbon emissions and reduce the effects of climate change. </</p>
+				</div>
+
+				<div class="para5">
+					<h3>BRINGING PEOPLE TOGETHER</h3>
+					<p id="rcorners1">Having a campus garden allows a gardening society to be created. This can create a greater sense of community within the college. Having a campus garden also allows for another space for people to relax in, and get fresh air and vitamin D. </</p>
+				</div>	
+
+				
+	<div class="relative">		
+	<img src="solar-shauna.jpeg"  alt="solarImage"> <!--putting the image in-->
+	<img src="community-shauna.jpeg" alt="communityImage"> <!--putting the image in-->
+	<img src="garden-shauna.jpeg" alt="gardenImage"> <!--putting the image in-->
+	</div>
+	
+				<div class="para6">
+					<h3>THOUGHTS?</h3>
+					<p id="rcorners2">What are your thoughts on our web design project for sustainability? This index page was made by Shauna Kirwan Kelly </</p>
+				</div>	
+		
+		<!-- nothing goes after this script tag -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	</body>
+		
+</html>
+        
+		

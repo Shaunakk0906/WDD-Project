@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- firstly imply the 5 essential tags -->
+<!--Minigame made by Connor-->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- the users visable area of the page -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+		
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<link rel="stylesheet" href="./style2.css" /> <!-- links the HTML with the CSS file used for customisation -->
+		<title>WDD_Project_Minigame</title>
+	</head>
+	<body>
+	<!--code from bootstrap demo class-->
+		<div class="container-fluid">
+		<!-- nav here -->
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		<div class="container-fluid">
+		<a class="navbar-brand" href="#">WDD_project</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		<ul class="navbar-nav">
+		<li class="nav-item">
+		<a class="nav-link active" aria-current="page" a href="index.html">Home &nbsp; </a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link active" a href="form.html">Form  </a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link active" a href="gallery.html">Gallery</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link active" a href="aimlab.html">Minigame  &nbsp; </a>
+		</li>
+		</ul>
+		</div>
+		</div>
+		</nav>
+  
+	  
+		<div id="game-container"> <!-- div id allows me to create containers that i could style as the body tag is uesd as the background and the div id holds the content -->
+		<div id="target"></div>	
+		</div>
+	<div id="options">
+		<button onclick="setDifficulty('easy')">Easy</button> <!-- the onclick button allows the player to click an element for this example the difficulty of the game -->
+		<button onclick="setDifficulty('medium')">Medium</button>
+		<button onclick="setDifficulty('hard')">Hard</button>
+		<button onclick="endGame()">End Game</button>
+	</div>
+	<div id= "score">Score: <span id="score-value">0</span></div> <!-- displays the current score -->
+	<div id="timer">Time: <span id="time-value">45</span></div>	<!-- displays timer and the span tags are used to change the colour of the text -->
+	<script src="./script.js"></script> <!--file path for the javascript -->
+	</body>
+</html> -->
+		
+
+ <!--  link to info on div id: https://stackoverflow.com/questions/354739/why-should-i-use-a-container-div-in-html -->
+ <!-- link to info on onclick: https://www.w3schools.com/jsref/event_onclick.asp -->
+ 

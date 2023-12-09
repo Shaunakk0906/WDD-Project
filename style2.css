@@ -1,0 +1,31 @@
+/*	Connor's Css*/
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 550px;
+	margin: 0;
+	background: #FFFFFF;
+	color: blue; /* colour that displays whats in span tags */
+	font-family: 'Bebas Neue', sans-serif;
+}
+
+#game-container {
+	position: relative;
+	width: 600px;
+	height: 400px;
+	background:  #2D5987;
+	border: 5px solid #C0C0C0;
+}
+
+#target {
+	position:absolute;
+	width:40px;
+	height: 40px;
+	border-radius: 255%;
+	background-color: #ffe84f;
+	cursor: crosshair;
+}
+
+
